@@ -1,0 +1,188 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Исходные файлы\Examples">
+      <UniqueIdentifier>{7c671390-f26b-4ac8-8525-94b5ccf05f1c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Tools">
+      <UniqueIdentifier>{367d81f8-a024-4b75-bc9b-961ee1802035}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Tools">
+      <UniqueIdentifier>{3343ed46-cd4d-45cb-bb63-191dd45c00e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\World">
+      <UniqueIdentifier>{aa233ea0-6120-4dc2-bd75-1635cadad06f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\World">
+      <UniqueIdentifier>{6613fdf3-8c9d-46a7-887d-586d7932317e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\World\Shapes">
+      <UniqueIdentifier>{fff5fb97-fa3e-40f6-812b-53aa8bb09372}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\World\Shapes">
+      <UniqueIdentifier>{5da30b12-f586-4768-b10b-f51b3a812b06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\World\Shapes\2D">
+      <UniqueIdentifier>{3ece3dab-b75c-45a5-8126-3830f67eecb7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\World\Shapes\3D">
+      <UniqueIdentifier>{02333aad-3f4e-4d26-bcc0-43b634a45681}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\World\Shapes\2D">
+      <UniqueIdentifier>{372c3f23-9e6b-48b9-8d9e-7b95ca7400bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\World\Shapes\3D">
+      <UniqueIdentifier>{f774a46d-5f51-46b4-8a85-8c45b45bc561}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\World\Physic">
+      <UniqueIdentifier>{778b00e9-4bdd-4101-8cc1-f3487df4bc65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\World\Physic">
+      <UniqueIdentifier>{24cf982f-d66e-49fc-82f2-33ae20bc2acd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\World\Physic\Forces">
+      <UniqueIdentifier>{95095ca9-0b7b-4ede-a453-66839c4130b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\World\Physic\Forces">
+      <UniqueIdentifier>{64d88b06-4e57-4b7a-bbdb-ec5b3d36b448}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="FirstGL.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>Исходные файлы\Examples</Filter>
+    </ClCompile>
+    <ClCompile Include="Terrain.cpp">
+      <Filter>Исходные файлы\Examples</Filter>
+    </ClCompile>
+    <ClCompile Include="Shadow.cpp">
+      <Filter>Исходные файлы\Examples</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraExample.cpp">
+      <Filter>Исходные файлы\Examples</Filter>
+    </ClCompile>
+    <ClCompile Include="BilliCube.cpp">
+      <Filter>Исходные файлы\Examples</Filter>
+    </ClCompile>
+    <ClCompile Include="MathTools.cpp">
+      <Filter>Исходные файлы\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="WorldObject.cpp">
+      <Filter>Исходные файлы\World</Filter>
+    </ClCompile>
+    <ClCompile Include="Shape.cpp">
+      <Filter>Исходные файлы\World\Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="Circle.cpp">
+      <Filter>Исходные файлы\World\Shapes\2D</Filter>
+    </ClCompile>
+    <ClCompile Include="Rectangle.cpp">
+      <Filter>Исходные файлы\World\Shapes\2D</Filter>
+    </ClCompile>
+    <ClCompile Include="Triangle.cpp">
+      <Filter>Исходные файлы\World\Shapes\2D</Filter>
+    </ClCompile>
+    <ClCompile Include="Parallelepiped.cpp">
+      <Filter>Исходные файлы\World\Shapes\3D</Filter>
+    </ClCompile>
+    <ClCompile Include="Cylinder.cpp">
+      <Filter>Исходные файлы\World\Shapes\3D</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysicalObject.cpp">
+      <Filter>Исходные файлы\World\Physic</Filter>
+    </ClCompile>
+    <ClCompile Include="Material.cpp">
+      <Filter>Исходные файлы\World\Physic</Filter>
+    </ClCompile>
+    <ClCompile Include="Force.cpp">
+      <Filter>Исходные файлы\World\Physic\Forces</Filter>
+    </ClCompile>
+    <ClCompile Include="FrictionForce.cpp">
+      <Filter>Исходные файлы\World\Physic\Forces</Filter>
+    </ClCompile>
+    <ClCompile Include="Ground.cpp">
+      <Filter>Исходные файлы\World\Physic</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>Исходные файлы\World</Filter>
+    </ClCompile>
+    <ClCompile Include="Mover.cpp">
+      <Filter>Исходные файлы\World\Physic</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="glut32.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Camera.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="MathTools.h">
+      <Filter>Файлы заголовков\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="WorldObject.h">
+      <Filter>Файлы заголовков\World</Filter>
+    </ClInclude>
+    <ClInclude Include="Mover.h">
+      <Filter>Файлы заголовков\World</Filter>
+    </ClInclude>
+    <ClInclude Include="Shape.h">
+      <Filter>Файлы заголовков\World\Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_image.h">
+      <Filter>Файлы заголовков\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Circle.h">
+      <Filter>Файлы заголовков\World\Shapes\2D</Filter>
+    </ClInclude>
+    <ClInclude Include="Rectangle.h">
+      <Filter>Файлы заголовков\World\Shapes\2D</Filter>
+    </ClInclude>
+    <ClInclude Include="Triangle.h">
+      <Filter>Файлы заголовков\World\Shapes\2D</Filter>
+    </ClInclude>
+    <ClInclude Include="Сylinder.h">
+      <Filter>Файлы заголовков\World\Shapes\3D</Filter>
+    </ClInclude>
+    <ClInclude Include="Parallelepiped.h">
+      <Filter>Файлы заголовков\World\Shapes\3D</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicalObject.h">
+      <Filter>Файлы заголовков\World\Physic</Filter>
+    </ClInclude>
+    <ClInclude Include="Material.h">
+      <Filter>Файлы заголовков\World\Physic</Filter>
+    </ClInclude>
+    <ClInclude Include="Force.h">
+      <Filter>Файлы заголовков\World\Physic\Forces</Filter>
+    </ClInclude>
+    <ClInclude Include="FrictionForce.h">
+      <Filter>Файлы заголовков\World\Physic\Forces</Filter>
+    </ClInclude>
+    <ClInclude Include="Physic.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Billi.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
